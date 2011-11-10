@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A1A9649145D49F100BDA8B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A1A9648145D49F100BDA8B7 /* UIKit.framework */; };
+		5A1A964B145D49F100BDA8B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A1A964A145D49F100BDA8B7 /* Foundation.framework */; };
+		5A1A964D145D49F200BDA8B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A1A964C145D49F100BDA8B7 /* CoreGraphics.framework */; };
+		5A1A9653145D49F200BDA8B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A1A9651145D49F200BDA8B7 /* InfoPlist.strings */; };
+		5A1A9655145D49F200BDA8B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A9654145D49F200BDA8B7 /* main.m */; };
+		5A1A9659145D49F200BDA8B7 /* MultiplicationTableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A9658145D49F200BDA8B7 /* MultiplicationTableAppDelegate.m */; };
+		5A1A965C145D49F200BDA8B7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1A965A145D49F200BDA8B7 /* MainWindow.xib */; };
+		5A1A965F145D49F200BDA8B7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A965E145D49F200BDA8B7 /* FirstViewController.m */; };
+		5A1A9662145D49F200BDA8B7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A9661145D49F200BDA8B7 /* SecondViewController.m */; };
+		5A1A9665145D49F200BDA8B7 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1A9663145D49F200BDA8B7 /* FirstView.xib */; };
+		5A1A9668145D49F200BDA8B7 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1A9666145D49F200BDA8B7 /* SecondView.xib */; };
+		5A1A9670145D49F200BDA8B7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A1A966F145D49F200BDA8B7 /* SenTestingKit.framework */; };
+		5A1A9671145D49F200BDA8B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A1A9648145D49F100BDA8B7 /* UIKit.framework */; };
+		5A1A9672145D49F200BDA8B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A1A964A145D49F100BDA8B7 /* Foundation.framework */; };
+		5A1A9673145D49F200BDA8B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A1A964C145D49F100BDA8B7 /* CoreGraphics.framework */; };
+		5A1A967B145D49F200BDA8B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A1A9679145D49F200BDA8B7 /* InfoPlist.strings */; };
+		5A1A967D145D49F200BDA8B7 /* MultiplicationTableTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5A1A967C145D49F200BDA8B7 /* MultiplicationTableTests.h */; };
+		5A1A967F145D49F200BDA8B7 /* MultiplicationTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A967E145D49F200BDA8B7 /* MultiplicationTableTests.m */; };
+		5A1A968A145D57B400BDA8B7 /* happySmile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A1A9689145D57B400BDA8B7 /* happySmile.jpg */; };
+		5A1A968C145D58E700BDA8B7 /* sadSmile.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5A1A968B145D58E700BDA8B7 /* sadSmile.jpeg */; };
+		5A8691C41464698400C57733 /* calcData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A8691C31464698400C57733 /* calcData.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A1A9674145D49F200BDA8B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A1A963B145D49F100BDA8B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A1A9643145D49F100BDA8B7;
+			remoteInfo = MultiplicationTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A1A9644145D49F100BDA8B7 /* MultiplicationTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiplicationTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1A9648145D49F100BDA8B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5A1A964A145D49F100BDA8B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5A1A964C145D49F100BDA8B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5A1A9650145D49F200BDA8B7 /* MultiplicationTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiplicationTable-Info.plist"; sourceTree = "<group>"; };
+		5A1A9652145D49F200BDA8B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A1A9654145D49F200BDA8B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A1A9656145D49F200BDA8B7 /* MultiplicationTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiplicationTable-Prefix.pch"; sourceTree = "<group>"; };
+		5A1A9657145D49F200BDA8B7 /* MultiplicationTableAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiplicationTableAppDelegate.h; sourceTree = "<group>"; };
+		5A1A9658145D49F200BDA8B7 /* MultiplicationTableAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplicationTableAppDelegate.m; sourceTree = "<group>"; };
+		5A1A965B145D49F200BDA8B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5A1A965D145D49F200BDA8B7 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		5A1A965E145D49F200BDA8B7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		5A1A9660145D49F200BDA8B7 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5A1A9661145D49F200BDA8B7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5A1A9664145D49F200BDA8B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		5A1A9667145D49F200BDA8B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		5A1A966E145D49F200BDA8B7 /* MultiplicationTableTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiplicationTableTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1A966F145D49F200BDA8B7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5A1A9678145D49F200BDA8B7 /* MultiplicationTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiplicationTableTests-Info.plist"; sourceTree = "<group>"; };
+		5A1A967A145D49F200BDA8B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A1A967C145D49F200BDA8B7 /* MultiplicationTableTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiplicationTableTests.h; sourceTree = "<group>"; };
+		5A1A967E145D49F200BDA8B7 /* MultiplicationTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplicationTableTests.m; sourceTree = "<group>"; };
+		5A1A9689145D57B400BDA8B7 /* happySmile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = happySmile.jpg; sourceTree = "<group>"; };
+		5A1A968B145D58E700BDA8B7 /* sadSmile.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sadSmile.jpeg; sourceTree = "<group>"; };
+		5A8691C31464698400C57733 /* calcData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = calcData.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A1A9641145D49F100BDA8B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1A9649145D49F100BDA8B7 /* UIKit.framework in Frameworks */,
+				5A1A964B145D49F100BDA8B7 /* Foundation.framework in Frameworks */,
+				5A1A964D145D49F200BDA8B7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1A966A145D49F200BDA8B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1A9670145D49F200BDA8B7 /* SenTestingKit.framework in Frameworks */,
+				5A1A9671145D49F200BDA8B7 /* UIKit.framework in Frameworks */,
+				5A1A9672145D49F200BDA8B7 /* Foundation.framework in Frameworks */,
+				5A1A9673145D49F200BDA8B7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A1A9639145D49F100BDA8B7 = {
+			isa = PBXGroup;
+			children = (
+				5A1A964E145D49F200BDA8B7 /* MultiplicationTable */,
+				5A1A9676145D49F200BDA8B7 /* MultiplicationTableTests */,
+				5A1A9647145D49F100BDA8B7 /* Frameworks */,
+				5A1A9645145D49F100BDA8B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A1A9645145D49F100BDA8B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A1A9644145D49F100BDA8B7 /* MultiplicationTable.app */,
+				5A1A966E145D49F200BDA8B7 /* MultiplicationTableTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A1A9647145D49F100BDA8B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A1A9648145D49F100BDA8B7 /* UIKit.framework */,
+				5A1A964A145D49F100BDA8B7 /* Foundation.framework */,
+				5A1A964C145D49F100BDA8B7 /* CoreGraphics.framework */,
+				5A1A966F145D49F200BDA8B7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A1A964E145D49F200BDA8B7 /* MultiplicationTable */ = {
+			isa = PBXGroup;
+			children = (
+				5A1A9657145D49F200BDA8B7 /* MultiplicationTableAppDelegate.h */,
+				5A1A9658145D49F200BDA8B7 /* MultiplicationTableAppDelegate.m */,
+				5A1A965A145D49F200BDA8B7 /* MainWindow.xib */,
+				5A1A965D145D49F200BDA8B7 /* FirstViewController.h */,
+				5A1A965E145D49F200BDA8B7 /* FirstViewController.m */,
+				5A1A9660145D49F200BDA8B7 /* SecondViewController.h */,
+				5A1A9661145D49F200BDA8B7 /* SecondViewController.m */,
+				5A1A9663145D49F200BDA8B7 /* FirstView.xib */,
+				5A1A9666145D49F200BDA8B7 /* SecondView.xib */,
+				5A1A964F145D49F200BDA8B7 /* Supporting Files */,
+			);
+			path = MultiplicationTable;
+			sourceTree = "<group>";
+		};
+		5A1A964F145D49F200BDA8B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A8691C31464698400C57733 /* calcData.plist */,
+				5A1A9650145D49F200BDA8B7 /* MultiplicationTable-Info.plist */,
+				5A1A9651145D49F200BDA8B7 /* InfoPlist.strings */,
+				5A1A9654145D49F200BDA8B7 /* main.m */,
+				5A1A9656145D49F200BDA8B7 /* MultiplicationTable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A1A9676145D49F200BDA8B7 /* MultiplicationTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A1A967C145D49F200BDA8B7 /* MultiplicationTableTests.h */,
+				5A1A967E145D49F200BDA8B7 /* MultiplicationTableTests.m */,
+				5A1A9677145D49F200BDA8B7 /* Supporting Files */,
+			);
+			path = MultiplicationTableTests;
+			sourceTree = "<group>";
+		};
+		5A1A9677145D49F200BDA8B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A1A9688145D57A400BDA8B7 /* Images */,
+				5A1A9678145D49F200BDA8B7 /* MultiplicationTableTests-Info.plist */,
+				5A1A9679145D49F200BDA8B7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A1A9688145D57A400BDA8B7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5A1A968B145D58E700BDA8B7 /* sadSmile.jpeg */,
+				5A1A9689145D57B400BDA8B7 /* happySmile.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A1A9643145D49F100BDA8B7 /* MultiplicationTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A1A9682145D49F200BDA8B7 /* Build configuration list for PBXNativeTarget "MultiplicationTable" */;
+			buildPhases = (
+				5A1A9640145D49F100BDA8B7 /* Sources */,
+				5A1A9641145D49F100BDA8B7 /* Frameworks */,
+				5A1A9642145D49F100BDA8B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiplicationTable;
+			productName = MultiplicationTable;
+			productReference = 5A1A9644145D49F100BDA8B7 /* MultiplicationTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A1A966D145D49F200BDA8B7 /* MultiplicationTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A1A9685145D49F200BDA8B7 /* Build configuration list for PBXNativeTarget "MultiplicationTableTests" */;
+			buildPhases = (
+				5A1A9669145D49F200BDA8B7 /* Sources */,
+				5A1A966A145D49F200BDA8B7 /* Frameworks */,
+				5A1A966B145D49F200BDA8B7 /* Resources */,
+				5A1A966C145D49F200BDA8B7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A1A9675145D49F200BDA8B7 /* PBXTargetDependency */,
+			);
+			name = MultiplicationTableTests;
+			productName = MultiplicationTableTests;
+			productReference = 5A1A966E145D49F200BDA8B7 /* MultiplicationTableTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A1A963B145D49F100BDA8B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Digital Science";
+			};
+			buildConfigurationList = 5A1A963E145D49F100BDA8B7 /* Build configuration list for PBXProject "MultiplicationTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5A1A9639145D49F100BDA8B7;
+			productRefGroup = 5A1A9645145D49F100BDA8B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A1A9643145D49F100BDA8B7 /* MultiplicationTable */,
+				5A1A966D145D49F200BDA8B7 /* MultiplicationTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A1A9642145D49F100BDA8B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1A9653145D49F200BDA8B7 /* InfoPlist.strings in Resources */,
+				5A1A965C145D49F200BDA8B7 /* MainWindow.xib in Resources */,
+				5A1A9665145D49F200BDA8B7 /* FirstView.xib in Resources */,
+				5A1A9668145D49F200BDA8B7 /* SecondView.xib in Resources */,
+				5A1A968A145D57B400BDA8B7 /* happySmile.jpg in Resources */,
+				5A1A968C145D58E700BDA8B7 /* sadSmile.jpeg in Resources */,
+				5A8691C41464698400C57733 /* calcData.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1A966B145D49F200BDA8B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1A967B145D49F200BDA8B7 /* InfoPlist.strings in Resources */,
+				5A1A967D145D49F200BDA8B7 /* MultiplicationTableTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A1A966C145D49F200BDA8B7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A1A9640145D49F100BDA8B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1A9655145D49F200BDA8B7 /* main.m in Sources */,
+				5A1A9659145D49F200BDA8B7 /* MultiplicationTableAppDelegate.m in Sources */,
+				5A1A965F145D49F200BDA8B7 /* FirstViewController.m in Sources */,
+				5A1A9662145D49F200BDA8B7 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1A9669145D49F200BDA8B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1A967F145D49F200BDA8B7 /* MultiplicationTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A1A9675145D49F200BDA8B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A1A9643145D49F100BDA8B7 /* MultiplicationTable */;
+			targetProxy = 5A1A9674145D49F200BDA8B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A1A9651145D49F200BDA8B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A1A9652145D49F200BDA8B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5A1A965A145D49F200BDA8B7 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A1A965B145D49F200BDA8B7 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5A1A9663145D49F200BDA8B7 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A1A9664145D49F200BDA8B7 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		5A1A9666145D49F200BDA8B7 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A1A9667145D49F200BDA8B7 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		5A1A9679145D49F200BDA8B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A1A967A145D49F200BDA8B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A1A9680145D49F200BDA8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5A1A9681145D49F200BDA8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A1A9683145D49F200BDA8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiplicationTable/MultiplicationTable-Prefix.pch";
+				INFOPLIST_FILE = "MultiplicationTable/MultiplicationTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5A1A9684145D49F200BDA8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiplicationTable/MultiplicationTable-Prefix.pch";
+				INFOPLIST_FILE = "MultiplicationTable/MultiplicationTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5A1A9686145D49F200BDA8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultiplicationTable.app/MultiplicationTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiplicationTable/MultiplicationTable-Prefix.pch";
+				INFOPLIST_FILE = "MultiplicationTableTests/MultiplicationTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5A1A9687145D49F200BDA8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultiplicationTable.app/MultiplicationTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiplicationTable/MultiplicationTable-Prefix.pch";
+				INFOPLIST_FILE = "MultiplicationTableTests/MultiplicationTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A1A963E145D49F100BDA8B7 /* Build configuration list for PBXProject "MultiplicationTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1A9680145D49F200BDA8B7 /* Debug */,
+				5A1A9681145D49F200BDA8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A1A9682145D49F200BDA8B7 /* Build configuration list for PBXNativeTarget "MultiplicationTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1A9683145D49F200BDA8B7 /* Debug */,
+				5A1A9684145D49F200BDA8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A1A9685145D49F200BDA8B7 /* Build configuration list for PBXNativeTarget "MultiplicationTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1A9686145D49F200BDA8B7 /* Debug */,
+				5A1A9687145D49F200BDA8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A1A963B145D49F100BDA8B7 /* Project object */;
+}
